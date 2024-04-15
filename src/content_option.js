@@ -1,47 +1,60 @@
-const logotext = "JOHN";
+const logotext = "PRANAV CHAUHAN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Pranav Chauhan",
+    description: "I'm Pranav Chauhan, cloud engineer, software engineer, a professional photgrapher and a stock trader.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Pranav Chauhan",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I capture memories",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I'm Pranav Chauhan, cloud engineer, software engineer, a professional photgrapher and a stock trader.",
+    your_img_url: "https://i.postimg.cc/B6vGkVbD/IMG-2884.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About MySelf",
+    aboutme: "I am Pranav Chauhan a Software Engineer. I want to enrich my knowledge through learning and to utilize my technical skills & behavioural skills for the development of the organization and to enrich my knowledge as well.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+const worktimeline = [
+    {
+        jobtitle: "",
+        where: "",
+        date: "",
+    },
+    
+    {
+        jobtitle: "Amazon Web Servies (AWS) Training",
+        where: "Croma Campus, Noida",
+        date: "2024",
+    },
+    
+    {
+        jobtitle: "Graduation(B.Tech)",
+        where: "Kurukshetra University",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
+        jobtitle: "12th",
+        where: "Bal Vikas School, Panipat",
         date: "2019",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "10th",
+        where: "St. Mary's Convent sr. sec. School, Panipat",
+        date: "2017",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "AWS",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "HTML/CSS",
         value: 85,
     },
     {
@@ -53,84 +66,81 @@ const skills = [{
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "SQL",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Highly Available Infrastructure with Load Balancing and Autoscaling on AWS",
+        description: "Implemented a highly available infrastructure on AWS using load balancing and autoscaling feature, along with notification functionality enabled. Designed to improve system availability, scalability and reliability.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Digital Canvas - My Portfolio Odyssey",
+        description: "Created a masterpiece: Designed and built a personal portfolio using Reactjs and CSS, showcasing my prowess and accomplishments.",
     },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+   
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://picsum.photos/400/?grayscalereact-portfolio.png",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
 
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
 ];
@@ -151,6 +161,8 @@ const socialprofils = {
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
+    youtube: "https://youtube.com",
+    twitch: "https://twitch.com",
 };
 export {
     meta,
